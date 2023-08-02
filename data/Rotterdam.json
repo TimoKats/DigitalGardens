@@ -1,0 +1,19 @@
+{
+    "title": "Rotterdam",
+    "description": "City in the Netherlands",
+    "content": "Rotterdam is the second largest city in The Netherlands. It has the largest port in the western hemisphere and a major university.\r\n\r\nThe city of Rotterdam is located at the shores of the river Maas and Rotte.",
+    "comments": {
+        "Maas and Rotte": [
+            "Just the Maas really",
+            0.18505165576934812
+        ],
+        "The Netherlands": [
+            "France or China",
+            0.13210413455963133
+        ],
+        "western hemisphere": [
+            "this is just incorrect",
+            -0.3242719411849976
+        ]
+    }
+}

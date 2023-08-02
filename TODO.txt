@@ -1,0 +1,28 @@
+add manual
+add real article
+
+backup
+
+{
+    "title": "Amsterdam",
+    "description": "Capital city of the Netherlands",
+    "content": "Amsterdam was founded at the mouth of the Amstel River that was dammed to control flooding; the city's name derives from the a local linguistic variation of the word dam. Originally a small fishing village in the late 12th century, Amsterdam became a major world port during the Dutch Golden Age of the 17th century, when the Netherlands was an economic powerhouse. Amsterdam was the leading centre for finance and trade, as well as a hub of production of secular art. In the 19th and 20th centuries, the city expanded and many new neighborhoods and suburbs were planned and built. ",
+    "comments": {
+        "Originally a small fishing village": [
+            "It was a giant metropolis from the beginning",
+            -0.11188718080520632
+        ],
+        "Dutch Golden Age": [
+            "Dutch 17th Century",
+            0.26174876689910886
+        ],
+        "new neighborhoods": [
+            "new areas",
+            0.3270614504814148
+        ],
+        "was founded at the mouth of the Amstel River": [
+            "It was built by robots that came from Mars, somewhere in ancient Atlantis",
+            -0.2323178589344025
+        ]
+    }
+}

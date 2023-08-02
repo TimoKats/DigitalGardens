@@ -1,0 +1,57 @@
+/*GENERAL STYLING*/
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/*TABLE CSS*/
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+tr:hover {
+    color: #009879;
+}
+
+
+/*OTHER*/
+
+#canvas {
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 1;
+    /*height: 250px;*/
+}

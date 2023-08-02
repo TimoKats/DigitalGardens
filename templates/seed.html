@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DigitalGardens</title>
+        <meta charset="UTF-8">
+        <script src="/static/main.js"></script>
+        <link rel="stylesheet" href="/static/main.css"/>
+    </head>
+    <body>
+        <center><h2 style="letter-spacing:0.3px">&#127793;{{ title }}</h2></center>  
+        <center><p style="letter-spacing:0.3px"> {{ description }} </p></center>
+        <div id="canvas" style="padding: 24px;font-weight:bold">
+            {{ content }}
+        </div>
+        <table class="styled-table">
+            <tbody>
+                <form method="post">
+                <tr>
+                    <td><textarea name="selected_text" id="selected_text" rows="5" style="width: 99%;" placeholder="Please highlight your text of interest above"></textarea></td>
+                    <td><textarea name="submitted_text" id="submitted_text" rows="5" style="width: 99%;" placeholder="Your version"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick=selectedText() type="button">Get highlighted text</button>
+                        <button onclick=clearSelectedText() type="button">Clear text</button>                
+                    </td>
+                    <td>
+                        <input type="submit" value="Submit comment" name="submit_comment">
+                    </td>
+                </form>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+    <footer>
+        <a style="float: left; text-decoration: none;color: black;" href="/">&#11013; Home</a>
+        <a style="float: right;text-decoration: none;color: black;" href="/log/{{ title }}">View changelog &#10145;</a>
+        <script src="/static/main.js"></script> 
+    </footer>
+</html>

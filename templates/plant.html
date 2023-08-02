@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DigitalGardens</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/static/main.css"/>
+    </head>
+    <body>
+        <center><h2 style="letter-spacing:0.3px">&#127793;Plant a Seed</h2></center>  
+        <form method="post" action="/plant/" id="add_article">
+        <table class="styled-table" id="table">
+            <thead>
+                <tr>
+                    <th>Field name</th>
+                    <th>Value:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Title (max 50 characters):</td>
+                    <td><input type="text" name="name" size="50" maxlength="50" style="width: 100%;"/></td>
+                </tr>
+                <tr>
+                    <td>Description (max 200 characters):</td>
+                    <td><input type="text" name="description" size="50" style="width: 100%;" maxlength="200"/></td>
+                </tr>
+                <tr> 
+                    <td>Content (max 1000 characters)</td>
+                    <td><textarea name="content" cols="42" rows="15" style="width: 100%;" maxlength="1000"></textarea></td>
+                </tr>
+            </tbody>
+        </table> 
+        <table style="width: 100%;">
+            <tbody>
+                <tr>
+                    <td><a style="float: left; text-decoration: none;color: black;" href="/">&#11013; Home</a></td>
+                    <td><input style="float: right;" type="submit" value="&#127793; plant seed" /></td>
+                </tr>    
+            </tbody>
+        </table>
+        </form>
+    </body>
+</html>

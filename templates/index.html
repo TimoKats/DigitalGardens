@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DigitalGardens</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/static/main.css"/>
+    </head>
+    <center><h2 style="letter-spacing:0.3px">&#127795;DigitalGardens</h2></center>
+    <body>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Name/Link</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+            {%for i in range(0, len)%}
+                <tr>
+                    <td><a style="text-decoration: none;color: black;" href="/seed/{{titles[i]}}">  &#127793;{{titles[i]}}  </a></td>
+                    <td>{{descriptions[i]}}</td>
+                </tr>
+            {%endfor%}
+            </tbody>
+           
+        </table>       
+    </body>
+    <footer>
+        <a style="float: left; text-decoration: none;color: black;" href="/manual/">&#11013; About</a>
+        <a style="float: right;text-decoration: none;color: black;" href="/plant/">Plant a seed &#10145;</a>
+    </footer>
+</html>

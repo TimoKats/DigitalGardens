@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DigitalGardens</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/static/main.css"/>
+    </head>
+    <center><h2 style="letter-spacing:0.3px">&#128221;{{ title }}</h2></center>
+    <center><p style="letter-spacing:0.3px"> {{ len }} comments in total </p></center>
+    <body>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Text</th>
+                    <th>Comment</th>
+                    <th>Similarity (corrected)</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+            {%for i in range(0, len)%}
+                <tr>
+                    <td>{{ texts[i] }}</td>
+                    <td>{{ comments[i] }}</td>
+                    <td>{{ scores[i] }}</td>
+                </tr>
+            {%endfor%}
+            </tbody>
+           
+        </table>       
+    </body>
+    <footer>
+        <a style="float: left; text-decoration: none;color: black;" href="/seed/{{ title }}">&#11013; Back to article</a>
+    </footer>
+    <br>
+    <br>
+</html>
